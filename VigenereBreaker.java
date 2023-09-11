@@ -449,7 +449,7 @@ public class VigenereBreaker
 		/*
 		 * prints out a graph of the unordered values 
          * this is similar to the actual output but it would print the orders in alphabetical
-         * order, which is not good for this question although it was the first way I did and then
+         * order, which is not good for cryptanalysis although it was the first way I did and then
          * took this one step further and put the letters in order of appearance
 		 *
 		for(int j = height; j >= 0; j--)
@@ -521,7 +521,7 @@ public class VigenereBreaker
 			}
 			System.out.println();
 		}
-        //this is merely for our letters to line up to out * in the graph
+        //this is merely for our letters to line up to our * in the graph
 		System.out.print("    ");
         //now print the letters in order of most common to least, aka go through our queue and print the values
         //in order
